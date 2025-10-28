@@ -1,0 +1,18 @@
+# .github/workflows/profile-refresh.yml
+name: profile-refresh
+on:
+  schedule:
+    - cron: '0 15 * * 1'   # Mondays 15:00 UTC = 10:00am America/Chicago
+  workflow_dispatch: {}
+jobs:
+  touch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "refreshed: $(date -u)" >> .last_refreshed
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .last_refreshed
+          git commit -m "chore: weekly refresh" || echo "no changes"
+          git push
