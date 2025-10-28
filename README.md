@@ -48,4 +48,12 @@ I translate strategy into accountable execution — mapping epics → increments
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DanNewett" alt="Streak"/>
 </p>
 
-> Tip: See `engineering-playbook/.github/workflows/profile-refresh.yml` (in that repo) to auto-refresh weekly.
+<p align="center">
+  <a href="mailto:dannewettsr@gmail.com">
+    <img src="https://img.shields.io/badge/Email-dannewettsr%40gmail.com-blue?logo=gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/danielnewett">
+    <img src="https://img.shields.io/badge/LinkedIn-Daniel%20Newett-0a66c2?logo=linkedin" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=DanNewett&label=Profile%20views&color=0e75b6" />
+</p>
